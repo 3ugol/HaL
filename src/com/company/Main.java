@@ -18,7 +18,7 @@ public class Main {
                 z=z-z*2;
                 list.add(z);
                 System.out.println("z= " + z);
-                break c++;
+                c++;
             }
             System.out.println(c);
             if (highAndLow.charAt(c) != ' ' && highAndLow.charAt(c) != '-'){
